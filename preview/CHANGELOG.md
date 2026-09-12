@@ -1,5 +1,11 @@
 # @tabler/preview
 
+## 1.5.2
+
+### Patch Changes
+
+- 1dbabb5: Fixed a dev-server `ENOENT` race: preview's `watch:css` now writes to `tmp-assets/css` and `copy-assets` syncs it into `public/`.
+
 ## 1.5.1
 
 ### Patch Changes
